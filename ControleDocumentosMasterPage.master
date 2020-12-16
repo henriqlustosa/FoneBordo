@@ -1,0 +1,73 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="ControleDocumentosMasterPage.master.cs"
+    Inherits="ControleDocumentosMasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 414px;
+        }
+        .style2
+        {
+            width: 673px;
+        }
+    </style>
+    <title>Pesquisar Fones Bordos</title>
+</head>
+<body>
+    <div align="center">
+        <table style="width: 90%">
+            <tr>
+                <td colspan="3">
+                    <table style="width: 100%; height: 116px;">
+                        <tr>
+                            <td style="width: 170px">
+                                &nbsp;<img alt="" src="imagens/logo.png.gif" style="width: 162px; height: 50px" />
+                            </td>
+                            <td align="center" class="style2">
+                                <b><font size="4">HOSPITAL DO SERVIDOR PÚBLICO MUNICIPAL</font></b>
+                            </td>
+                            <td style="width: 170px">
+                                <img alt="" src="imagens/logo_prefeitura.png" style="width: 100px; height: 70px" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3" align="center">
+                                <b>Pesquisar Telefones antigos Bordo </b>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <form id="form1" runat="server">
+                    <div id="div_Principal">
+                        <table style="width: 100%; height: 15px;">
+                            <tr>
+                                <td class="style1">
+                                    &nbsp;</td>
+                                <td>
+                                    &nbsp;</td>
+                                <td>
+                                
+                                    &nbsp;</td>
+                            </tr>
+                          
+                        </table>
+                    </div>
+                 
+                   
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                    </form>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
